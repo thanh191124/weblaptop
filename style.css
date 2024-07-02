@@ -1,0 +1,54 @@
+* { box-sizing: border-box;}
+.listsp {width: 100%;}
+.listsp h2 { background-color: darkcyan; color: white; padding: 10px;}
+.listsp #data { display: grid ;grid-template-columns: 33.3% 33.3% 33.3%;} 
+.listsp #data .sp { border: 1px solid #ccc; margin: 10px; text-align: center;}
+.listsp #data .sp h4 { margin: 10px; height: 50px;}
+.listsp #data .sp h4 a { text-decoration: none; font-size: 1.1em;}
+.listsp #data .sp p { font-size: 1.2em; color: darkblue; font-weight: 600; margin: 10px;}
+.listsp #data .sp img { width: 100%; height: 250px; border: 1px solid black;}
+
+#chietsp h2 {
+    background-color: darkcyan;
+    color: white;
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+#chitietsp h2{
+    background-color: darkcyan; color: white; padding: 10px; font-size:1.5em ;
+}
+#chitietsp #data{
+    display: grid;
+    grid-template-columns: 35% 30% 35%;
+    gap: 20px; font-size: 1.3em;
+}
+#chitietsp #data #left img{
+    width: 100%;
+    height: 280px;
+    border: 1px solid black;
+}#chitietsp h2{
+    background-color: darkcyan; color: white; padding: 10px; font-size:1.5em ;
+}
+#chitietsp #data{
+    display: grid;
+    grid-template-columns: 35% 30% 35%;
+    gap: 20px; font-size: 1.3em;
+}
+#chitietsp #data #left img{
+    width: 100%;
+    height: 280px;
+    border: 1px solid black;
+}
+#listnhasx .nsx{display: grid; grid-template-columns: 100px auto 150px 150px 200px;}
+#listnhasx .nsx > * { border: 1px solid black; padding: 10px; font-size: 1.3em;}
+#listnhasx .nsx > b { background-color: darkcyan;color: white;}
+#listnhasx .nsx > *:last-child{text-align: right;}
+#listnhasx h2 a {text-decoration: none;}
+
+#listadminsp .sp { display: grid; grid-template-columns: 300px auto 250px 250px 250px}
+#listadminsp .sp img { width: 100%; height: 160px; border:1px solid #ccc}
+#listadminsp .sp > {border: 1px solid black; padding: 10px; font-size:1.3em}
+#listadminsp .sp > b { background-color: darkcyan; color: white;}
+#listadminsp .sp > *:last-child { text-align: right;}
+#listadminsp h2 a { text-decoration: none;}
